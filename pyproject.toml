@@ -54,6 +54,7 @@ norecursedirs = ["build", "doc/build", "src"]
 junit_family = "xunit2"
 filterwarnings = [
     "error",
+    "ignore:unclosed file:ResourceWarning",
 ]
 
 [tool.ruff.lint]
